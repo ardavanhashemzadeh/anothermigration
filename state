@@ -1,0 +1,10 @@
+5 NAS units running mariaDB10           pedo
+1 Windows server running MySQL 5.5.14   ortho
+2 Windows VM running MySQL 5.5.14       cr,nt
+
+1 Linux VM running MariaDB 10 - Currently replicant of nas dbs
+
+additional dbs:
+jhds: CEMT
+ssds: EMQ
+dbbackup: test merge
