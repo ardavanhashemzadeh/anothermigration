@@ -19,3 +19,4 @@ Setup master-master replication between cloud db server and on prem dbs, use clo
 Ensure all dbs (CEMT, EMQ, SSortho, and Naptime) are replicated in cloud and on prem
 
 Plan:
+setup lab to replicate OD from mysql 5.5.14 to mariadb10 and back (master-master)
