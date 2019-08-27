@@ -1,7 +1,7 @@
 CurrentState:
 5 NAS units running mariaDB10           pedo
 1 Windows server running MySQL 5.5.14   ortho
-2 Windows VM running MySQL 5.5.14       cr,nt
+2 Windows VM running MySQL 5.5.14       cr,(nt, training)
 
 1 Linux replication slave running MariaDB - Currently replicating main pedo DBs from nas
 
@@ -11,3 +11,11 @@ additional dbs:
 jhds: CEMT
 ssds: EMQ
 dbbackup: test merge
+
+Goal:
+Cut out middle man linux replication slave, have azure instance replicate directly from the sources
+Setup master-master replication between cloud db server and on prem dbs, use cloud db server as source for nt, cr, training and others
+
+Ensure all dbs (CEMT, EMQ, SSortho, and Naptime) are replicated in cloud and on prem
+
+Plan:
