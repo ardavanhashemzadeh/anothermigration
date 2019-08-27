@@ -3,7 +3,9 @@ CurrentState:
 1 Windows server running MySQL 5.5.14   ortho
 2 Windows VM running MySQL 5.5.14       cr,nt
 
-1 Linux VM running MariaDB 10 - Currently replicanting main pedo dbs on nas
+1 Linux replication slave running MariaDB - Currently replicating main pedo DBs from nas
+
+1 Linux VM running MariaDB 10 - Currently replicanting main pedo dbs from replication slave
 
 additional dbs:
 jhds: CEMT
